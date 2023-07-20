@@ -46,4 +46,4 @@ st.text('')
 st.write('(Text from selected Bicester Village London webpages were used in this demo.)')
 st.text('')
 
-st.write('Proof of Concept created by joel.lim@zensar.com')
+st.write('Proof of Concept using LLM AI created by joel.lim@zensar.com')

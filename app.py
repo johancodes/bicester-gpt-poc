@@ -43,7 +43,4 @@ if query:
     st.write(response)
 
 st.text('')
-st.write('(Text from selected Bicester Village London webpages were used in this demo.)')
-st.text('')
-
-st.write('Proof of Concept using LLM Gen AI created by joel.lim@zensar.com')
+st.write('(Text from selected Bicester Village London webpages were used in this demo. Proof of Concept using LLM Gen AI created by joel.lim@zensar.com)')

@@ -39,7 +39,7 @@ st.title('"Got questions on Bicester Village London? Ask me anything, in multipl
 
 query = st.text_input('Type your query below and press Enter')
 if query:
-    response = model.run('You\'re a customer service agent. The question is: ' + query + '. Respond in same language as query.')
+    response = model.run('You\'re a customer service agent. The question is: ' + query + '. Respond concisely and in same language as query.')
     st.write(response)
 
 st.text('')

@@ -40,7 +40,7 @@ st.title('"Got questions on Bicester Village London? Ask me anything, in multipl
 query = st.text_input('Type your query below and press Enter')
 if query:
     response = model.run(query + '. Respond in same language as query.')
-    st.write(response)
+    st.write('Answer: ' + response)
 
 st.text('')
 st.write('(Text from selected Bicester Village London webpages were used in this demo. Proof of Concept using LLM Gen AI created by joel.lim@zensar.com)')
